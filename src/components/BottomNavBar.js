@@ -23,9 +23,9 @@ import Svg, {
   Mask,
 } from "react-native-svg";
 
-export default function BottomNavBar() {
+export default function BottomNavBar(props) {
   return (
-    <Svg width="350" height="150" viewBox="0 0 350 60">
+    <Svg width="350" height="150" viewBox="0 0 350 60" {...props}>
       <Rect width="350" height="60" fill="yellow" border="50" rx="30" />
       <Circle cx="175" cy="0" r="45" fill="white" />
       <Circle cx="175" cy="0" r="35" fill="red" />
