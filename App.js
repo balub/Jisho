@@ -14,7 +14,6 @@ export default function App() {
           ...styles.container,
         }}
       >
-        
         <BottomNavBar style={{ position: "absolute", bottom: -20 }} />
       </SafeAreaView>
     </ThemeContext.Provider>
