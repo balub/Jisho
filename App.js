@@ -15,7 +15,7 @@ export default function App() {
           ...styles.container,
         }}
       >
-        <ThemeSwitcher />
+        <ThemeSwitcher style={{ position: "absolute", top: 50, right: 20 }} />
         <BottomNavBar style={{ position: "absolute", bottom: -20 }} />
       </SafeAreaView>
     </ThemeContext.Provider>
