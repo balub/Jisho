@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 
 import { ThemeContext } from "./src/utils/ThemeContext";
 import BottomNavBar from "./src/components/BottomNavBar";
+import ThemeSwitcher from "./src/components/ThemeSwitcher";
 
 export default function App() {
   const [lightMode, setLightMode] = useState(false);
@@ -14,6 +15,7 @@ export default function App() {
           ...styles.container,
         }}
       >
+        <ThemeSwitcher />
         <BottomNavBar style={{ position: "absolute", bottom: -20 }} />
       </SafeAreaView>
     </ThemeContext.Provider>
