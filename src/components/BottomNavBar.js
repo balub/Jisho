@@ -1,10 +1,11 @@
 import React, { useContext } from "react";
 import Svg, { Circle, Text, Path, Rect } from "react-native-svg";
+import { TouchableOpacity } from "react-native";
 
 import { ThemeContext } from "../utils/ThemeContext";
 
 export default function BottomNavBar(props) {
-  const { lightMode } = useContext(ThemeContext);
+  const { lightMode, handleNextPress } = useContext(ThemeContext);
 
   return (
     <Svg width="350" height="150" viewBox="0 0 350 60" {...props}>
@@ -26,22 +27,26 @@ export default function BottomNavBar(props) {
       <Text
         fill={lightMode ? "#F7F6F7" : "#06062A"}
         fontSize="30"
-        fontWeight="bold"
         x="70"
         y="37.5"
         textAnchor="middle"
+        fontFamily="MontserratAlternates_900Black"
+        fontWeight="bold"
+        onPress={props.handlePrevPress}
       >
-        Prev
+        prev
       </Text>
       <Text
         fill={lightMode ? "#F7F6F7" : "#06062A"}
         fontSize="30"
-        fontWeight="bold"
         x="274"
         y="37.5"
         textAnchor="middle"
+        fontFamily="MontserratAlternates_900Black"
+        fontWeight="bold"
+        onPress={() => console.log("fvjdfv")}
       >
-        Next
+        next
       </Text>
     </Svg>
   );

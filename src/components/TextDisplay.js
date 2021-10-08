@@ -4,17 +4,17 @@ import Carousel, { ParallaxImage } from "react-native-snap-carousel";
 
 import { ThemeContext } from "../utils/ThemeContext";
 import Vocabs from "../utils/N5_vocabs.json";
-import { color } from "styled-system";
+import BottomNavBar from "./BottomNavBar";
 
 const SLIDER_WIDTH = Dimensions.get("window").width;
 
 export default function TextDisplay() {
-  const { lightMode, setLightMode } = useContext(ThemeContext);
+  const { lightMode } = useContext(ThemeContext);
   const carouselRef = useRef(null);
 
   const MeaningCard = ({ item, index }) => {
     return (
-      <View style={{ alignItems:'center' }}>
+      <View style={{ alignItems: "center" }}>
         <Text
           style={{
             ...styles.headingText,
@@ -50,6 +50,15 @@ export default function TextDisplay() {
     );
   };
 
+  const handleNextPress = () => {
+    console.log("clicked");
+    carouselRef.current.snapToNext();
+  };
+  const handlePrevPress = () => {
+    console.log("clicked");
+    carouselRef.current.snapToPrev();
+  };
+
   return (
     <View style={styles.container}>
       <Carousel
@@ -59,7 +68,12 @@ export default function TextDisplay() {
         sliderWidth={SLIDER_WIDTH}
         itemWidth={SLIDER_WIDTH}
         style={{ justifyContent: "center" }}
-        hasParallaxImages={true}
+        layout={"default"}
+      />
+      <BottomNavBar
+        style={{ position: "absolute", bottom: -70 }}
+        handleNextPress={handleNextPress}
+        handlePrevPress={handlePrevPress}
       />
     </View>
   );
@@ -68,8 +82,8 @@ export default function TextDisplay() {
 const styles = StyleSheet.create({
   container: {
     width: "100%",
-    height: "70%",
-    justifyContent: "space-around",
+    height: "80%",
+    justifyContent: "space-between",
     alignItems: "center",
   },
   headingText: {
