@@ -9,12 +9,19 @@ import BottomNavBar from "./BottomNavBar";
 const SLIDER_WIDTH = Dimensions.get("window").width;
 
 export default function TextDisplay() {
-  const { lightMode, showMeaning, setShowMeaning  } = useContext(ThemeContext);
+  const { lightMode, showMeaning } = useContext(ThemeContext);
   const carouselRef = useRef(null);
 
   const MeaningCard = ({ item, index }) => {
     return (
-      <View style={{ alignItems: "center" }}>
+      <View
+        style={{
+          alignItems: "center",
+          justifyContent: "center",
+          width: "100%",
+          height: "100%",
+        }}
+      >
         <Text
           style={{
             ...styles.headingText,
@@ -50,12 +57,32 @@ export default function TextDisplay() {
     );
   };
 
+  const MeaningCardOnlyText = ({ item, index }) => {
+    return (
+      <View
+        style={{
+          alignItems: "center",
+          justifyContent: "center",
+          width: "100%",
+          height: "100%",
+        }}
+      >
+        <Text
+          style={{
+            ...styles.headingText,
+            color: lightMode ? "#06062A" : "#F7F6F7",
+          }}
+        >
+          {item.kanji}
+        </Text>
+      </View>
+    );
+  };
+
   const handleNextPress = () => {
-    console.log("clicked");
     carouselRef.current.snapToNext();
   };
   const handlePrevPress = () => {
-    console.log("clicked");
     carouselRef.current.snapToPrev();
   };
 
@@ -64,7 +91,7 @@ export default function TextDisplay() {
       <Carousel
         ref={carouselRef}
         data={Vocabs}
-        renderItem={MeaningCard}
+        renderItem={showMeaning ? MeaningCard : MeaningCardOnlyText}
         sliderWidth={SLIDER_WIDTH}
         itemWidth={SLIDER_WIDTH}
         style={{ justifyContent: "center" }}
