@@ -7,7 +7,7 @@ import { width } from "styled-system";
 import ShowMeaning from "./ShowMeaning";
 
 export default function BottomNavBar({ handleNextPress, handlePrevPress }) {
-  const { lightMode } = useContext(ThemeContext);
+  const { lightMode, showMeaning, setShowMeaning } = useContext(ThemeContext);
 
   return (
     <View style={styles.container}>
@@ -23,7 +23,9 @@ export default function BottomNavBar({ handleNextPress, handlePrevPress }) {
             backgroundColor: lightMode ? "#06062A" : "#F7F6F7",
           }}
         >
-          <ShowMeaning fill={lightMode ? "#F7F6F7" : "#06062A"} />
+          <TouchableOpacity onPress={() => setShowMeaning(!showMeaning)}>
+            <ShowMeaning fill={lightMode ? "#F7F6F7" : "#06062A"} />
+          </TouchableOpacity>
         </View>
       </View>
       <View

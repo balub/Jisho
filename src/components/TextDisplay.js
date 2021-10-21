@@ -9,7 +9,7 @@ import BottomNavBar from "./BottomNavBar";
 const SLIDER_WIDTH = Dimensions.get("window").width;
 
 export default function TextDisplay() {
-  const { lightMode } = useContext(ThemeContext);
+  const { lightMode, showMeaning, setShowMeaning  } = useContext(ThemeContext);
   const carouselRef = useRef(null);
 
   const MeaningCard = ({ item, index }) => {
