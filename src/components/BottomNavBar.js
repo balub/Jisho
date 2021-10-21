@@ -6,8 +6,8 @@ import { ThemeContext } from "../utils/ThemeContext";
 import { width } from "styled-system";
 import ShowMeaning from "./ShowMeaning";
 
-export default function BottomNavBar(props) {
-  const { lightMode, handleNextPress } = useContext(ThemeContext);
+export default function BottomNavBar({ handleNextPress, handlePrevPress }) {
+  const { lightMode } = useContext(ThemeContext);
 
   return (
     <View style={styles.container}>
@@ -32,7 +32,7 @@ export default function BottomNavBar(props) {
           backgroundColor: lightMode ? "#06062A" : "#F7F6F7",
         }}
       >
-        <TouchableOpacity>
+        <TouchableOpacity onPress={handlePrevPress}>
           <Text
             style={{
               ...styles.BtnText,
@@ -42,7 +42,7 @@ export default function BottomNavBar(props) {
             prev
           </Text>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={handleNextPress}>
           <Text
             style={{
               ...styles.BtnText,

@@ -19,12 +19,15 @@ export default function App() {
     MontserratAlternates_900Black,
   });
   const [lightMode, setLightMode] = useState(false);
+  const [showMeaning, setShowMeaning] = useState(false);
 
   if (!fontsLoaded) {
     return <AppLoading />;
   } else {
     return (
-      <ThemeContext.Provider value={{ lightMode, setLightMode }}>
+      <ThemeContext.Provider
+        value={{ lightMode, setLightMode, showMeaning, setShowMeaning }}
+      >
         <SafeAreaView
           style={{
             backgroundColor: lightMode ? "#F7F6F7" : "#06062A",
