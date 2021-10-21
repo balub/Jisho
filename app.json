@@ -4,24 +4,22 @@
     "slug": "nihongo-vocabs-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/AppLogo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/AppSplash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/AppLogo.png",
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.balubabu.nihongovocabsapp"
