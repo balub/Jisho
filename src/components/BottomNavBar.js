@@ -13,28 +13,17 @@ export default function BottomNavBar(props) {
     <View style={styles.container}>
       <View
         style={{
-          width: 90,
-          height: 90,
-          borderRadius: 50,
+          ...styles.circleBackground,
           backgroundColor: lightMode ? "#F7F6F7" : "#06062A",
-          position: "relative",
-          bottom: -45,
-          zIndex: 1,
-          alignItems: "center",
-          justifyContent: "center",
         }}
       >
         <View
           style={{
-            width: 70,
-            height: 70,
-            borderRadius: 50,
+            ...styles.circleForeground,
             backgroundColor: lightMode ? "#06062A" : "#F7F6F7",
-            alignItems: "center",
-            justifyContent: "center",
           }}
         >
-          <ShowMeaning />
+          <ShowMeaning fill={lightMode ? "#F7F6F7" : "#06062A"} />
         </View>
       </View>
       <View
@@ -76,6 +65,23 @@ const styles = StyleSheet.create({
     minHeight: 150,
     justifyContent: "center",
     alignItems: "center",
+  },
+  circleBackground: {
+    width: 90,
+    height: 90,
+    borderRadius: 50,
+    position: "relative",
+    bottom: -45,
+    zIndex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  circleForeground: {
+    width: 70,
+    height: 70,
+    borderRadius: 50,
+    alignItems: "center",
+    justifyContent: "center",
   },
   btnContainer: {
     flexDirection: "row",
