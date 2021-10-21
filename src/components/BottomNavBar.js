@@ -24,7 +24,7 @@ export default function BottomNavBar({ handleNextPress, handlePrevPress }) {
           }}
         >
           <TouchableOpacity onPress={() => setShowMeaning(!showMeaning)}>
-            <ShowMeaning fill={lightMode ? "#F7F6F7" : "#06062A"} />
+            <ShowMeaning />
           </TouchableOpacity>
         </View>
       </View>
