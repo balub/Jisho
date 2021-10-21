@@ -4,6 +4,7 @@ import { TouchableOpacity, StyleSheet, View, Text } from "react-native";
 
 import { ThemeContext } from "../utils/ThemeContext";
 import { width } from "styled-system";
+import ShowMeaning from "./ShowMeaning";
 
 export default function BottomNavBar(props) {
   const { lightMode, handleNextPress } = useContext(ThemeContext);
@@ -29,8 +30,12 @@ export default function BottomNavBar(props) {
             height: 70,
             borderRadius: 50,
             backgroundColor: lightMode ? "#06062A" : "#F7F6F7",
+            alignItems: "center",
+            justifyContent: "center",
           }}
-        ></View>
+        >
+          <ShowMeaning />
+        </View>
       </View>
       <View
         style={{
