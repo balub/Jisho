@@ -110,18 +110,18 @@
     "meaning": "May I have your name?"
   },
   {
-    "kanji": "初めまして。",
-    "hiragana": "はじめまして。",
+    "kanji": "初めまして",
+    "hiragana": "はじめまして",
     "meaning": "How do you do? (first time meeting)"
   },
   {
-    "kanji": "どうぞよろしく。",
-    "hiragana": "どうぞよろしく。",
+    "kanji": "どうぞよろしく",
+    "hiragana": "どうぞよろしく",
     "meaning": "Pleased to meet you."
   },
   {
-    "kanji": "こちらは～さんです。",
-    "hiragana": "こちらは～さんです。",
+    "kanji": "こちらは～さんです",
+    "hiragana": "こちらは～さんです",
     "meaning": "This is Mr. /Ms. ~."
   },
   {
@@ -225,8 +225,8 @@
     "meaning": "No, it isn't, different"
   },
   {
-    "kanji": "そうですか。",
-    "hiragana": "そうですか。",
+    "kanji": "そうですか",
+    "hiragana": "そうですか",
     "meaning": "I see, Is that so?"
   },
   {
@@ -235,23 +235,23 @@
     "meaning": "Well… (used to show hesitation)"
   },
   {
-    "kanji": "ほんの気持ちです。",
-    "hiragana": "ほんのきもちです。",
+    "kanji": "ほんの気持ちです",
+    "hiragana": "ほんのきもちです",
     "meaning": "It's nothing. It's a token of my gratitude."
   },
   {
-    "kanji": "どうぞ。",
-    "hiragana": "どうぞ。",
+    "kanji": "どうぞ",
+    "hiragana": "どうぞ",
     "meaning": "Please, here you are.."
   },
   {
-    "kanji": "これからお世話になります。",
-    "hiragana": "これからおせわになります。",
+    "kanji": "これからお世話になります",
+    "hiragana": "これからおせわになります",
     "meaning": "I hope for your kind assistance here after."
   },
   {
-    "kanji": "こちらこそよろしく。",
-    "hiragana": "こちらこそよろしく。",
+    "kanji": "こちらこそよろしく",
+    "hiragana": "こちらこそよろしく",
     "meaning": "I am pleased to meet you."
   },
   {
@@ -360,14 +360,14 @@
     "meaning": "Ten Thousand"
   },
   {
-    "kanji": "すみません。",
+    "kanji": "すみません",
     "hiragana": "すみません",
     "meaning": "Excuse me."
   },
   {
-    "kanji": "～でございます。",
-    "hiragana": "～でございます。",
-    "meaning": "Polite equivalent of です。"
+    "kanji": "～でございます",
+    "hiragana": "～でございます",
+    "meaning": "Polite equivalent of です"
   },
   {
     "kanji": "駐車場",
@@ -690,8 +690,8 @@
     "meaning": "Your place"
   },
   {
-    "kanji": "大変ですね。",
-    "hiragana": "たいへんですね。",
+    "kanji": "大変ですね",
+    "hiragana": "たいへんですね",
     "meaning": "That's tough, isn't it?"
   },
   {
@@ -700,13 +700,13 @@
     "meaning": "Well, let me see"
   },
   {
-    "kanji": "お願いします。",
-    "hiragana": "おねがいします。",
+    "kanji": "お願いします",
+    "hiragana": "おねがいします",
     "meaning": "Please"
   },
   {
-    "kanji": "かしこまりました。",
-    "hiragana": "かしこまりました。",
+    "kanji": "かしこまりました",
+    "hiragana": "かしこまりました",
     "meaning": "Certainly"
   },
   {
@@ -975,8 +975,8 @@
     "meaning": "Next"
   },
   {
-    "kanji": "どういたしまして。",
-    "hiragana": "どういたしまして。",
+    "kanji": "どういたしまして",
+    "hiragana": "どういたしまして",
     "meaning": "Your welcome, don't mention it."
   },
   {
@@ -1460,28 +1460,28 @@
     "meaning": "From now on, soon"
   },
   {
-    "kanji": "ごめんください。",
-    "hiragana": "ごめんください。",
+    "kanji": "ごめんください",
+    "hiragana": "ごめんください",
     "meaning": "Excuse me, Anybody home?"
   },
   {
-    "kanji": "いらっしゃい。",
-    "hiragana": "いらっしゃい。",
+    "kanji": "いらっしゃい",
+    "hiragana": "いらっしゃい",
     "meaning": "Welcome"
   },
   {
-    "kanji": "失礼します。",
-    "hiragana": "しつれいします。",
+    "kanji": "失礼します",
+    "hiragana": "しつれいします",
     "meaning": "Thank you. lit: I'm afraid I'll be bothering"
   },
   {
-    "kanji": "いかがですか。",
-    "hiragana": "いかがですか。",
+    "kanji": "いかがですか",
+    "hiragana": "いかがですか",
     "meaning": "Would you like to have [something]?"
   },
   {
-    "kanji": "いただきます。",
-    "hiragana": "いただきます。",
+    "kanji": "いただきます",
+    "hiragana": "いただきます",
     "meaning": "Thankyou, Said before eating or drinking"
   },
   {
@@ -2750,18 +2750,18 @@
     "meaning": "Somewhere"
   },
   {
-    "kanji": "おなかがすきました。",
-    "hiragana": "おなかがすきました。",
+    "kanji": "おなかがすきました",
+    "hiragana": "おなかがすきました",
     "meaning": "(I'm) Hungry"
   },
   {
-    "kanji": "おなかがいっばいです。",
-    "hiragana": "おなかがいっばいです。",
+    "kanji": "おなかがいっばいです",
+    "hiragana": "おなかがいっばいです",
     "meaning": "(I'm) Full"
   },
   {
-    "kanji": "のどがかわきました。",
-    "hiragana": "のどがかわきました。",
+    "kanji": "のどがかわきました",
+    "hiragana": "のどがかわきました",
     "meaning": "(I'm) Thirsty"
   },
   {
@@ -3505,8 +3505,8 @@
     "meaning": "First of All"
   },
   {
-    "kanji": "お引き出しですか。",
-    "hiragana": "おひきだしですか。",
+    "kanji": "お引き出しですか",
+    "hiragana": "おひきだしですか",
     "meaning": "Are you making a withdrawal?"
   },
   {
@@ -3530,8 +3530,8 @@
     "meaning": "Transfer (Money)"
   },
   {
-    "kanji": "お引き出しですか。",
-    "hiragana": "おひきだしですか。",
+    "kanji": "お引き出しですか",
+    "hiragana": "おひきだしですか",
     "meaning": "Withdrawal"
   },
   {
@@ -3685,8 +3685,8 @@
     "meaning": "Underwear"
   },
   {
-    "kanji": "どうしましたか。",
-    "hiragana": "どうしましたか。",
+    "kanji": "どうしましたか",
+    "hiragana": "どうしましたか",
     "meaning": "What Seems to be the problem?"
   },
   {
@@ -3915,8 +3915,8 @@
     "meaning": "Ranch, Stock Farm"
   },
   {
-    "kanji": "ほんとうですか。",
-    "hiragana": "ほんとうですか。",
+    "kanji": "ほんとうですか",
+    "hiragana": "ほんとうですか",
     "meaning": "Really?"
   },
   {

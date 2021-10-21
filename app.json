@@ -4,7 +4,7 @@
     "slug": "nihongo-vocabs-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/AppLogo.png",
+    "icon": "./assets/Icon-App.png",
     "splash": {
       "image": "./assets/AppSplash.png",
       "resizeMode": "contain",
@@ -19,7 +19,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/AppLogo.png",
+        "foregroundImage": "./assets/Icon-App.png",
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.balubabu.nihongovocabsapp"

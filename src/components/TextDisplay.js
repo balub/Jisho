@@ -27,6 +27,8 @@ export default function TextDisplay() {
             ...styles.headingText,
             color: lightMode ? "#06062A" : "#F7F6F7",
           }}
+          numberOfLines={1}
+          adjustsFontSizeToFit
         >
           {item.kanji}
         </Text>
@@ -41,6 +43,8 @@ export default function TextDisplay() {
               ...styles.meaningText,
               color: lightMode ? "#F7F6F7" : "#06062A",
             }}
+            numberOfLines={1}
+            adjustsFontSizeToFit
           >
             {item.hiragana}
           </Text>
@@ -49,6 +53,8 @@ export default function TextDisplay() {
               ...styles.meaningText,
               color: lightMode ? "#F7F6F7" : "#06062A",
             }}
+            numberOfLines={1}
+            adjustsFontSizeToFit
           >
             {item.meaning}
           </Text>
@@ -72,6 +78,8 @@ export default function TextDisplay() {
             ...styles.headingText,
             color: lightMode ? "#06062A" : "#F7F6F7",
           }}
+          adjustsFontSizeToFit
+          numberOfLines={1}
         >
           {item.kanji}
         </Text>
