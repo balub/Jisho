@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "nihongo-vocabs-app",
-    "slug": "nihongo-vocabs-app",
+    "name": "Jisho",
+    "slug": "Jisho",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/Icon-App.png",
