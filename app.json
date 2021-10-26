@@ -4,7 +4,7 @@
     "slug": "Jisho",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/Icon-App.png",
+    "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/AppSplash.png",
       "resizeMode": "contain",
@@ -19,7 +19,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/Icon-App.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.balubabu.nihongovocabsapp"
