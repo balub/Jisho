@@ -1,9 +1,8 @@
 <div align="center" id="top"> 
-  <img src="../nihongo-vocabs-app/assets/DEMO.gif" alt="Weather React App" height="400px" />
+  <img src="https://i.imgur.com/seOQze5.gif" alt="App demo" height="400px" />
 
 &#xa0;
 
-<a href="https://simpleweatherreactapp.netlify.app">Demo</a>
 
 </div>
 
@@ -36,6 +35,8 @@ So I made this app and as an experiment designed the entire UI myself and includ
 
 
 App is currently pending release in the Google Play store.
+
+<a href="https://simpleweatherreactapp.netlify.app">Click here to download APK file</a>
 
 
 
